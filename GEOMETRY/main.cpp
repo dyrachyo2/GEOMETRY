@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<Windows.h>
 #include<conio.h>
 using std::cin;
@@ -16,7 +16,7 @@ void main()
 	setlocale(LC_ALL, "");
 #ifdef PERVIY
 	int n;
-	cout << "Ââåäèòå ðàçìåð ôèãóðû: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ„Ð¸Ð³ÑƒÑ€Ñ‹: "; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = 0; j < n; j++)
@@ -28,7 +28,7 @@ void main()
 #ifdef KVADRAT_S_PARI
 
 	int n;
-	cout << "Ââåäèòå ðàçìåð ôèãóðû: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ„Ð¸Ð³ÑƒÑ€Ñ‹: "; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = 0; j < n; j++)
@@ -39,7 +39,7 @@ void main()
 #endif // KVADRAT_S_PARI
 #ifdef LESTNICA
 	int n;
-	cout << "Ââåäèòå ðàçìåð ôèãóðû: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ„Ð¸Ð³ÑƒÑ€Ñ‹: "; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = 0; j <= i; j++)
@@ -50,7 +50,7 @@ void main()
 #endif // LESTNICA
 #ifdef DVA
 	int n;
-	cout << "Ââåäèòå ðàçìåð ôèãóðû: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ„Ð¸Ð³ÑƒÑ€Ñ‹: "; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = 0; j <= i; j++)
@@ -62,7 +62,7 @@ void main()
 #endif // DVA
 #ifdef PLUS_MINUS
 	int n;
-	cout << "Ââåäèòå ðàçìåð ôèãóðû: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ„Ð¸Ð³ÑƒÑ€Ñ‹: "; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		{
@@ -78,7 +78,7 @@ void main()
 #endif // PLUS_MINUS
 #ifdef ROMBUS
 	int n;
-	cout << "Ââåäèòå ðàçìåð ôèãóðû: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ„Ð¸Ð³ÑƒÑ€Ñ‹: "; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = i; j < n; j++)cout << " "; cout << "/";
